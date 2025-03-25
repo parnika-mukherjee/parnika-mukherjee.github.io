@@ -8,3 +8,12 @@ navigation:
     url: "/publications"
   - title: "Charité Pipelines"
     url: "/charite-infectious-diseases-pipelines/"
+# This tells Jekyll to include the custom stylesheet
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/custom.css"
