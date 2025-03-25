@@ -1,5 +1,5 @@
 ---
-title: Charité Infectious Disease Pipelines
+title: Home
 layout: default
 ---
 
