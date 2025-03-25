@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Parnika Mukherjee
+title: Home
 ---
 
 # 👋 Hello World
