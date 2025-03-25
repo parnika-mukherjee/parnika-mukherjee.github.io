@@ -17,28 +17,6 @@ You can find more about my work and interests below.
 
 ---
 
-## 📁 CV
-
-_(Coming soon)_  
-Here, I’ll include a downloadable version of my CV and possibly an interactive breakdown.
-
----
-
-## 📚 Publications
-
-_(Coming soon)_  
-A list of selected peer-reviewed publications, preprints, or posters will appear here.
-
----
-
-## 🦠 Charité – Infectious Diseases Pipelines
-
-You can explore our bioinformatics pipelines and tools used in the lab at the page below:
-
-👉 [Go to Charité Pipelines](./charite-infectious-diseases-pipelines/)
-
----
-
 ## 📬 Contact
 
 📧 [parnika.mukherjee@charite.de](mailto:parnika.mukherjee@charite.de)
