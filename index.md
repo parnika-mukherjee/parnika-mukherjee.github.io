@@ -1,4 +1,4 @@
----
+ious-d---
 layout: default
 title: Parnika Mukherjee
 ---
@@ -35,7 +35,7 @@ A list of selected peer-reviewed publications, preprints, or posters will appear
 
 You can explore our bioinformatics pipelines and tools used in the lab at the page below:
 
-👉 [Go to Charité Pipelines](./charite/)
+👉 [Go to Charité Pipelines](./charite-infectious-diseases-pipelines/)
 
 ---
 
