@@ -9,7 +9,7 @@ This section hosts a collection of reproducible pipelines used in our bioinforma
 
 ## 📂 Available Pipelines
 
-- [ENA Raw Read Submission](./ena-submission)
+- [ENA Raw Read Submission](./ENA-raw-read-submission)
 - [Bulk RNA-seq Analysis](./rna-seq)
 - *(More coming soon...)*
 
