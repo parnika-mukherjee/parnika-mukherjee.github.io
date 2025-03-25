@@ -1,1 +1,10 @@
 theme: jekyll-theme-slate
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "CV"
+    url: "/cv"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Charité Pipelines"
+    url: "/charite/"
