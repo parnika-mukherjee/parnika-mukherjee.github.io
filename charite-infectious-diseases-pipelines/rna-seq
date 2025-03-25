@@ -3,20 +3,12 @@ title: Charité Infectious Disease Pipelines
 layout: default
 ---
 
-# 🧪 Charité – Infectious Disease Pipelines
+This pipeline walks you through bulk RNA-sequencing analysis.
 
-This section hosts a collection of reproducible pipelines used in our bioinformatics workflows for infectious disease research.
+## 📋 Overview
 
-## 📂 Available Pipelines
-
-- [ENA Raw Read Submission](./ENA-raw-read-submission)
-- [Bulk RNA-seq Analysis](./rna-seq)
-- *(More coming soon...)*
-
-Each pipeline includes:
-- Step-by-step instructions
-- Required inputs/outputs
-- Command-line scripts
-- Example images and workflows
+1. Count
+2. Isoforms, SNPs, differential gene expression, pathway enrichment
+3. Visualise
 
 ---
