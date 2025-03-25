@@ -9,7 +9,7 @@ This pipeline walks you through submitting raw sequencing reads to the **Europea
 
 ## 📋 Overview
 
-1. Prepare metadata
+1. Prepare experiment metadata
 2. Format submission files
 3. Use Webin-CLI for upload
 
