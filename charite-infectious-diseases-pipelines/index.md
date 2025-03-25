@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Charité Pipelines
 layout: default
 ---
 
