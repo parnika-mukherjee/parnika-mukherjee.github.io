@@ -9,6 +9,6 @@ This pipeline walks you through bulk RNA-sequencing analysis.
 
 1. Count
 2. Isoforms, SNPs, differential gene expression, pathway enrichment
-3. Visualise
+3. Visualise data
 
 ---
