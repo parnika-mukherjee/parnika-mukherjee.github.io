@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+      body {
+        display: flex;
+        margin: 0;
+        font-family: sans-serif;
+      }
+      nav {
+        width: 200px;
+        background: #f7f7f7;
+        padding: 1rem;
+        height: 100vh;
+        position: fixed;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+      main {
+        margin-left: 220px;
+        padding: 2rem;
+        max-width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h3>{{ site.title }}</h3>
+      <ul>
+        {% for item in site.navigation %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
