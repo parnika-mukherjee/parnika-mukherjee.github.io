@@ -1,0 +1,21 @@
+/* Set light background and dark text */
+body {
+  background-color: #f8f9fa !important;
+  color: #222 !important;
+}
+
+/* Adjust main content area */
+main {
+  background-color: #ffffff !important;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Override dark theme links if needed */
+a {
+  color: #0056b3;
+}
+a:hover {
+  color: #003974;
+}
