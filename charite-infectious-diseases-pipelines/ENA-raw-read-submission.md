@@ -48,15 +48,15 @@ For environmental and organismal (host-associated) samples, check resource 2.
       
    b. With the md5sums in place, it is time to upload the read files to the ftp server of ENA. This will be a long process based on total upload data. Can choose to remotely upload or do it the following day on the production service.
       
-      # Connect to FTP server [replace X:s, and provide password when prompted]
+      ### Connect to FTP server [replace X:s, and provide password when prompted]
       lftp webin2.ebi.ac.uk -u Webin-XXXXX
-      # Expected response: lftp Webin-XXXXX@webin2.ebi.ac.uk:~>
+      ### Expected response: lftp Webin-XXXXX@webin2.ebi.ac.uk:~>
       
-      # Transfer your read files
+      ### Transfer your read files
       mput ~/your-read-file-dir/*.fastq.gz
-      # Expected response: ... Total x files transferred
+      ### Expected response: ... Total x files transferred
       
-      # Disconnect from server
+      ### Disconnect from server
       bye
       
       This works for Mac and Linux. [`Example on Windows.`](https://unihost.com/blog/how-to-connect-to-ftp-server/)
