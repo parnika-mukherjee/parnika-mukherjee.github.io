@@ -14,7 +14,7 @@ Read submission can be completed in 3 steps:
 2. Read upload via command line interface
 3. Read metadata upload via web interface
 
-[`-> Go to metadata collection`](./ena-metadata-collection.md)
+[`-> Go to metadata collection`](./ENA-metadata-collection.md)
 
 ALWAYS complete a [`test version`](https://wwwdev.ebi.ac.uk/ena/submit/webin/login) first and then repeat the steps for the [`production version`](https://www.ebi.ac.uk/ena/submit/webin/login)
 
@@ -24,7 +24,7 @@ ALWAYS complete a [`test version`](https://wwwdev.ebi.ac.uk/ena/submit/webin/log
 2. Register study on the test service. Release date can be pushed back or forward based on need
 3. After this, Study Acession will become available in Studies Report. It starts with "PRJEB". Save it for later use
    (3 lines on top left part of the screen opens the dashboard for navigation)
-4. Register samples -> Download spreadsheet. For human or mouse RNA-seq data, choose "Other checklists". Next, for human/mouse data, choose default checklist. Fill up ([`see here for help`](./ena-metadata-collection.md)), go back to "Register samples" on dashboard and select Upload. Get assigned sample accession IDs from "Samples Report". We need these to finish the read files checklist.
+4. Register samples -> Download spreadsheet. For human or mouse RNA-seq data, choose "Other checklists". Next, for human/mouse data, choose default checklist. Fill up ([`see here for help`](./ENA-metadata-collection.md)), go back to "Register samples" on dashboard and select Upload. Get assigned sample accession IDs from "Samples Report". We need these to finish the read files checklist.
 For environmental and organismal (host-associated) samples, check resource 2.
 5. We can now follow Step 4 in resource 2.
    a. We need the md5sum check to verify read file integrity after upload. In the folder with the read files, run in terminal:
@@ -61,7 +61,7 @@ For environmental and organismal (host-associated) samples, check resource 2.
       
       This works for Mac and Linux. [`Example on Windows.`](https://unihost.com/blog/how-to-connect-to-ftp-server/)
 
-8. After uploading read files, it is time to upload the read files checklist along with the md5sum for each file. Go back to Dashboard -> Submit Reads -> Select download option based on file format -> fill up ([`see here for help`](./ena-metadata-collection.md)) -> upload.
+8. After uploading read files, it is time to upload the read files checklist along with the md5sum for each file. Go back to Dashboard -> Submit Reads -> Select download option based on file format -> fill up ([`see here for help`](./ENA-metadata-collection.md)) -> upload.
 
 Here, it is critical that the md5sums should match with the files on the FTP server. Once they do, "Run Files Report" on dashboard will indicate this with "File archived" or similar. If there are errors, you will see it immediately.
 
