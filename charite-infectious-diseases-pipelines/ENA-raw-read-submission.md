@@ -21,7 +21,7 @@ ALWAYS complete a [`test version`](https://wwwdev.ebi.ac.uk/ena/submit/webin/log
 ## 📋 Uploading data to ENA Webin Submissions Portal
 
 1. Register user on [`Webin Submissions Portal`](https://www.ebi.ac.uk/ena/submit/webin/accountInfo). Center name is sequencing facility name. For example, MDC/BIH Genomics Facility
-2. Register study on the test service. Release date can be pushed back or forward based on need
+2. Register study on the test service. Release date can be pushed back or forward based on need. Abstract and description can be added later
 3. After this, Study Acession will become available in Studies Report. It starts with "PRJEB". Save it for later use
    (3 lines on top left part of the screen opens the dashboard for navigation)
 4. Register samples -> Download spreadsheet. For human or mouse RNA-seq data, choose "Other checklists". Next, for human/mouse data, choose default checklist. Fill up ([`see here for help`](./ENA-metadata-collection.md)), go back to "Register samples" on dashboard and select Upload. Get assigned sample accession IDs from "Samples Report". We need these to finish the read files checklist.
