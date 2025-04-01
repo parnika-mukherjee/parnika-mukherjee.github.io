@@ -15,7 +15,7 @@ This pipeline walks you through submitting raw sequencing reads to the **Europea
 
 ## 🖼️ Workflow Diagram
 
-![ENA Pipeline Diagram](./assets/ena-diagram.png)
+![ENA Pipeline Diagram](./assets/ena-diagram.jpeg)
 
 ## 🧾 Scripts
 
