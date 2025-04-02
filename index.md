@@ -1,23 +1,12 @@
 ---
 layout: default
-title: Home
+title: Bioinformatics Tutorials
 ---
 
-# 👋 Hello World
+# 🔬 Bioinformatics Tutorials
 
-Welcome to my professional site. I'm Parnika Mukherjee, and this page highlights my background, academic work, and bioinformatics pipelines.
+Visit the [Charité Pipelines](./charite/) page to view step-by-step guides and tools.
 
----
-
-## 📄 About Me
-
-I’m a researcher currently based at Charité – Universitätsmedizin Berlin, working in the field of infectious diseases and transcriptomic data analysis.
-
-You can find more about my work and interests below.
+This page is maintained by [Parnika Mukherjee](mailto:parnika.mukherjee@charite.de)
 
 ---
-
-## 📬 Contact
-
-📧 [parnika.mukherjee@charite.de](mailto:parnika.mukherjee@charite.de)
-🌐 [Charité – Universitätsmedizin Berlin](https://www.charite.de/en/)
