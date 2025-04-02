@@ -33,21 +33,22 @@ For environmental and organismal (host-associated) samples, check resource 2.
 
       Modify this command based on file names. This creates a tab-separated file with the md5sums and the file names. It should look like this (or in the reverse order of the columns):
 
-      | 3b078583e52381db7d88abf7912b76c1 | i712_0001_CGGGAACCCGCA_i512A_0001_GTCTTTGGCCCT_R1.fastq.gz |
-      | de91c8fc0d76dbfe05a45e7431109c97 | i712_0002_AAACGTTCATCC_i512A_0002_TTAGTAACTGGG_R1.fastq.gz |                                                   
+      | 3b078583e52381db7d88abf7912b76c1 | i712_0001_CGGCGCA_i512A_0001_GTCTCCCT_R1.fastq.gz |
+      | de91c8fc0d76dbfe05a45e7431109c97 | i712_0002_AAAATCC_i512A_0002_TTATGGGT_R1.fastq.gz |                                                   
 
       
-   <span style="color: grey">Troubleshoot:
-      If the correct info is not on the tsv file, print out the output of 
+   <div style="color: grey">
+   Troubleshoot:
+      If the correct info is not on the tsv file, try 
       
       `md5sum i712_0031_AAAATCCCAGTT_i512A_0031_AACGTTTAGGGG_R1.fastq.gz | awk '{ gsub(/\(|\)/,""); print $1"\t" $2 }'`
       
-      with your own read file name. Check by changing 1 and 2 to 3 and 4 in the command what gives out one such row as an output. 
+      with your own read file name. Print different columns such as $2 and $4 to find out the correct columns to ask for. 
       
-      This works for Mac and Linux. For Windows, check online for an easy method (for example, [`see this`](https://stackoverflow.com/questions/41838664/md5-hash-of-files-in-a-windows-folder))
-   </span>
+      This works for Mac and Linux. [`Example on Windows`](https://stackoverflow.com/questions/41838664/md5-hash-of-files-in-a-windows-folder))
+   </div>
       
-   b. Next, time to upload the read files to the ftp server of ENA, preferrably remotely, as it can take a long time.
+   b. Next, upload the read files to the ftp server of ENA, preferrably remotely, as it can take a long time.
       
       ```
       ### Connect to FTP server [replace Xs, and provide password when prompted]
@@ -62,9 +63,9 @@ For environmental and organismal (host-associated) samples, check resource 2.
       bye
       ```
       
-      This works for Mac and Linux. [`Example on Windows.`](https://unihost.com/blog/how-to-connect-to-ftp-server/)
+      This works for Mac and Linux. [`Example on Windows`](https://unihost.com/blog/how-to-connect-to-ftp-server/)
 
-8. Last step, to upload the read files checklist along with the md5sum for each file, go to Dashboard -> Submit Reads -> Select download option based on file format -> fill up ([`see here for help`](./ENA-metadata-collection.md)) -> upload.
+8. Last step: to upload the read files checklist along with the md5sum for each file, go to Dashboard -> Submit Reads -> Select download option based on file format -> fill up ([`see here for help`](./ENA-metadata-collection.md)) -> upload.
 
 Here, it is critical that the md5sums on the checklist should match those on the FTP server for each file. Once they do, "Run Files Report" on dashboard will indicate this with "File archived" or similar. If there are errors, you will see it immediately.
 
@@ -72,15 +73,17 @@ Here, it is critical that the md5sums on the checklist should match those on the
 Check md5sums of data at source to check if downloading was the issue. Redo md5sum step. For further help, ontact ENA via "Support" in Webin user area. "Internal errors" usually resolve without intervention.
 </span>
 
-That's it!! All done :tada:
+That's it!! All done 🎉
+
+---
 
 Now log in to [`production service`](https://www.ebi.ac.uk/ena/submit/webin/login) and repeat all steps.
 <span style="color: red">Caution</span>: Study and sample accessions will be different to test service
 
-
 For other errors like "internal checking error", etc, give it a couple of days to resolve on the production service. Contact support if errors persist.
 
 Helpful resources:
+
 [`Resource 1 - ena-docs.readthedocs.io`](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/interactive.html)
 [`Resource 2 - biodiversitydata-se.github.io`](https://biodiversitydata-se.github.io/mol-data/ena-metabar.html)
 
