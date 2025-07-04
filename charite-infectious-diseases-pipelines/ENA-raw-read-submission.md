@@ -52,7 +52,7 @@ ALWAYS complete a [`test version`](https://wwwdev.ebi.ac.uk/ena/submit/webin/log
    > Troubleshoot:
    > If the correct info is not on the tsv file, run the following in the terminal with one file name. Examine which output columns contain the filename and checksum. 
       
-   > md5sum i712_0031_AAAATCCCAGTT_i512A_0031_AACGTTTAGGGG_R1.fastq.gz | awk '{ gsub(/\(|\)/,""); print $1"\t" $2 }'
+   > `md5sum i712_0031_AAAATCCCAGTT_i512A_0031_AACGTTTAGGGG_R1.fastq.gz | awk '{ gsub(/\(|\)/,""); print $1"\t" $2 }'`
       
    > For example, print different columns such as $1 and $3 instead of $1 and $2 in the command above. 
       
