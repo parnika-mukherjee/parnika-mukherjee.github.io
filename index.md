@@ -13,6 +13,8 @@ Welcome to my professional site. I'm Parnika Mukherjee, and this page highlights
 
 I’m a bioinformatician currently based at [Charité – Universitätsmedizin Berlin](https://www.charite.de/en/), working in the field of infectious diseases and high-throughput omics data analysis.
 
+For scripts related to my projects, please see [my Github page](https://github.com/parnika91).
+
 ---
 
 ## 📬 Contact
