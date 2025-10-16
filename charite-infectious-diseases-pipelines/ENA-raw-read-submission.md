@@ -9,7 +9,7 @@ Raw reads associated with a study must be deposited in a public repository, such
 
 This pipeline walks you through submitting raw sequencing reads to the [`European Nucleotide Archive (ENA)`](https://www.ebi.ac.uk/ena/browser/home). See [`Resource 1`](https://ena-docs.readthedocs.io/en/latest/index.html) below for the official documentation from ENA
 
-## :clipboard: Before uploading raw reads to ENA
+## Before uploading raw reads to ENA
 
 The first step is to register as user on the [`Webin Submissions Portal`](https://www.ebi.ac.uk/ena/submit/webin/accountInfo) of ENA. This profile can be used to submit multiple studies
 
