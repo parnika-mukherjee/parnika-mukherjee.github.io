@@ -31,9 +31,25 @@ Briefings in Bioinformatics, Volume 22, Issue 6, November 2021, bbab259, https:/
 ---
 
 Data analysis steps:
-1. Read quality control
+1. Quality control
 2. Read-mapping and quantification of features
 3. Differential gene expression
 4. Process / pathway enrichment
 
+Quality control
+
+---
+
+Read-mapping and quantification
+
 Pipeline for read-mapping and feature quantification is [here](https://github.com/parnika91/nf-pipelines/)
+
+---
+
+Differential gene expression
+
+---
+
+Functional enrichment
+
+---
