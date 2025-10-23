@@ -19,30 +19,10 @@ Key characteristics:
 
 What does bulk RNA-seq data look like?
 
-fastq format after sample demultiplexing
-
-SE data
-
-PE data
 
 ---
 
-Data analysis steps:
-1. Read quality control
-2. Applications of RNA-seq data
-3. Read-mapping and quantification of features
-4. Differential gene expression
-5. Process / pathway enrichment
-
----
-
-1. Read quality control
-
-   FastQC
-
----
-
-2. Applications of RNA-seq data
+Applications of RNA-seq data
 
 Demystifying emerging bulk RNA-Seq applications: the application and utility of bioinformatic methodology
 Amarinder Singh Thind , Isha Monga , Prasoon Kumar Thakur , Pallawi Kumari , Kiran Dindhoria , Monika Krzak , Marie Ranson , Bruce Ashford
@@ -50,22 +30,10 @@ Briefings in Bioinformatics, Volume 22, Issue 6, November 2021, bbab259, https:/
 
 ---
 
-3. Read-mapping and quantification of features
+Data analysis steps:
+1. Read quality control
+2. Read-mapping and quantification of features
+3. Differential gene expression
+4. Process / pathway enrichment
 
-   STAR
-   Check output files for percentage of uniquely mapped reads, mapped read length, etc. - should align with experiment design and sequencing method
-
----
-
-4. Sample quality and differential gene expression
-
-   Tutorial for RNAseqQC R package: https://cran.r-project.org/web/packages/RNAseqQC/vignettes/introduction.html
-   DESeq2 / EdgeR
-
----
-
-5. Process / pathway enrichment
-
-   ClusterProfiler
-
----
+Pipeline for read-mapping and feature quantification is [here](https://github.com/parnika91/nf-pipelines/)
